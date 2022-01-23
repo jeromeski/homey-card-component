@@ -1,0 +1,367 @@
+.item-wrap {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+.item-wrap .property-item {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.media {
+  overflow: inherit;
+}
+
+.property-item .media-left {
+  padding-right: 0;
+}
+
+// ------ media-left --------------------
+
+.media-left {
+    padding-right: 15px;
+}
+
+.media .media-left {
+    padding-right: 20px;
+}
+
+.property-item .media-left {
+    padding-right: 0;
+}
+
+
+
+// ------ item-media-thumb --------------
+
+.item-media-thumb {
+    cursor: pointer;
+}
+
+.item-list-view .item-media-thumb {
+    width: 300px;
+    max-height: 300px;
+}
+
+.item-media-thumb {
+    cursor: pointer;
+}
+
+.label-wrap {
+    line-height: normal;
+}
+
+.label-wrap.top-left, .label-wrap.top-right {
+    top: 20px;
+    z-index: 1;
+}
+
+.label-wrap.top-left {
+    left: 20px;
+    right: auto;
+    width: 30%;
+}
+
+.label {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.label {
+    padding: 2px 4px;
+}
+
+.label-featured {
+    background-color: #54c4d9;
+    color: #ffffff;
+}
+
+.label-wrap .label {
+    color: #fff;
+    border-radius: 2px;
+    font-size: 10px;
+    padding: 4px 7px 3px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    line-height: 11px;
+    font-weight: 700;
+    height: 18px;
+}
+
+.label-wrap.top-left .label {
+    margin-right: 5px;
+}
+
+#module_listings span.label {
+    text-transform: capitalize;
+}
+
+.hover-effect {
+    overflow: hidden;
+}
+
+.hover-effect:before {
+    content: "";
+    opacity: 1;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(0%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.75)));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.75) 100%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.75) 100%);
+    z-index: 1;
+}
+
+.bottom-0, .footer-dashboard, .item-media-price {
+    bottom: 0;
+}
+
+.item-media-price {
+    z-index: 1;
+    padding: 0 20px 15px 20px;
+}
+
+.item-list-view .item-media-price {
+    color: #fff;
+}
+
+.item-price {
+    font-size: 28px;
+    line-height: inherit;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.item-price sub, .item-price sup {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.item-price sup {
+    top: -9px;
+}
+
+.item-price sub {
+    top: -1px;
+}
+
+.item-media-price .item-price {
+    color: #fff;
+}
+
+.item-media-thumb {
+    cursor: pointer;
+}
+
+.item-list-view .item-media-price {
+    color: #fff;
+}
+
+.item-price {
+    font-size: 28px;
+    line-height: inherit;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.item-media-price .item-price {
+    color: #fff;
+}
+
+.item-price sub, .item-price sup {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.item-price sup {
+    top: -9px;
+}
+
+// --------------------------------
+
+.item-body {
+    background-color: #fff;
+    padding: 20px 25px;
+}
+
+.media .media-body {
+    overflow: inherit;
+}
+
+.item-list-view .item-body {
+    width: 1000px;
+}
+
+.item-title-head {
+    margin-bottom: 10px;
+}
+
+.title, .sub-title, .item-title-head .title {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.item-title-head .title a {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.item-title-head .item-address {
+    color: #949ca5;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.item-amenities {
+    list-style: none;
+    height: 50px;
+}
+
+.item-amenities li {
+    margin-bottom: 0;
+    padding-right: 10px !important;
+    padding-left: 0 !important;
+    line-height: 1 !important;
+    font-size: 14px;
+}
+
+.item-amenities li i {
+    margin-right: 5px;
+}
+
+.item-list-view .item-user-image {
+    left: 20px;
+    bottom: 15px;
+    min-width: 140px;
+}
+
+.item-user-image img {
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+
+.item-user-image img {
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    border: 2px solid #fff !important;
+}
+
+.item-list-view .item-user-image img {
+    float: left;
+    margin-right: 10px;
+}
+
+.item-user-info {
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.item-user-info {
+    margin-top: 5px;
+}
+
+.item-user-info {
+    text-transform: capitalize;
+}
+
+.item-footer {
+    margin-top: 15px;
+}
+
+.item-list-view .item-footer {
+    margin-top: 22px;
+    width: auto;
+    height: 24px;
+}
+
+.item-tools {
+    margin-right: -10px;
+}
+
+.item-tools .btn-item-tools {
+    width: 20px;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #949ca5;
+}
+
+.item-tools .btn-group.open .btn-item-tools {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-group .dropdown-toggle:active, .btn-group.open .dropdown-toggle {
+    outline: 0;
+}
+
+.item-tools .dropdown-menu {
+    min-width: 120px;
+    text-align: right;
+    right: 8px;
+    left: auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    z-index: 1000;
+}
+
+.item-tools .dropdown-menu > li {
+    margin-top: 1px;
+}
+
+.dropup {
+  margin-top: -2px !important;
+}
+
+.item-tools .dropdown-menu > li:first-child a {
+    border-radius: 4px 4px 0 0;
+}
+
+.item-tools .dropdown-menu > li > a {
+    padding: 7px;
+    background-color: #4f5962;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item-tools .dropdown-menu > li:last-child a {
+    border-radius: 0 0 0 4px;
+}
+
+.rating {
+    color: #949ca5;
+
+    & > *:not(:last-child) {
+      padding-right: 3px;
+    }
+}
+
+.rating .fa-star {
+    color: #f8b42b;
+}
